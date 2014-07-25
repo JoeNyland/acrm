@@ -419,3 +419,10 @@ Small Device Styles
     }
 
 }
+
+/* Custom */
+.logo {
+    background-image: url(../img/alpha-cms-logo.png);
+    background-size:  100%;
+    margin:       10px;
+}
