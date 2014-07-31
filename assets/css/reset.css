@@ -1,0 +1,44 @@
+/* Reset HTML5 Boilerplate Styles */
+.header-container {
+    border-bottom: inherit;
+}
+
+.footer-container,
+.main aside {
+    border-top: inherit;
+}
+
+.header-container,
+.footer-container,
+.main aside {
+    background: inherit;
+}
+
+.title {
+    color: inherit;
+}
+
+.main aside {
+    color: inherit;
+}
+
+.footer-container footer {
+    color: inherit;
+}
+
+nav a {
+    color: inherit;
+    background: inherit;
+}
+
+nav a:hover,
+nav a:visited {
+    color: inherit;
+}
+
+.header-container,
+.main aside {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
