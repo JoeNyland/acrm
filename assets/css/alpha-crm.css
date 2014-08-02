@@ -1,1 +1,107 @@
 /* αCRM Styles */
+
+html, body {
+    height: 100%;
+    background: center no-repeat fixed url('../img/bg.jpg');
+    background-size: cover;
+    font-family:    'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
+}
+
+.icon-bar {
+    background-color: #fff;
+}
+
+.navbar-trans {
+    background-color: #279ddd;
+    color: #fff;
+}
+
+.navbar-trans li > a:hover, .navbar-trans li > a:focus, .navbar-trans li.active {
+    background-color: #38afef;
+}
+
+.navbar-trans a {
+    color: #fefefe;
+}
+
+.navbar-trans .form-control:focus {
+    border-color: #eee;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(100, 100, 100, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(100, 100, 100, 0.6);
+}
+
+section {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    min-height: calc(100% - 1px);
+}
+
+.v-center {
+    padding-top: 10%;
+    font-size: 70px;
+}
+
+.well {
+    border-color: transparent;
+}
+
+a.list-group-item.active, [class*='-info'] {
+    background-color: #168ccc;
+    color: #fff;
+}
+
+#section1 {
+    /* Home */
+    /* No background, grey text */
+    color: #686868;
+    text-shadow: 0 0 10px rgba(104, 182, 255, 5);
+}
+
+#section2, #section4, #section6 {
+    /* White background, grey text */
+    background-color: #fff;
+    color: #444;
+}
+
+#section3, #section5, #section7 {
+    background-color: #168ccc;
+    background-color: rgba(22,140,204,0.75);
+    color: #f5f5f5;
+}
+
+#section3 i.fa, #section5 i.fa, #section7 i.fa {
+    color: #686868;
+}
+
+#section3 a > i.fa:hover, #section5 i.fa:hover {
+    color: #fff;
+}
+
+footer {
+    background-color: #494949;
+    color: #ddd;
+    min-height: 100px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+footer .nav > li > a {
+    padding: 3px;
+    color: #ccc;
+}
+
+footer .nav > li > a:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+#section1 .logo {
+    color: #168ccc;
+    text-shadow: 0 0 10px rgba(104, 104, 104, 5);
+}
+
+.row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
