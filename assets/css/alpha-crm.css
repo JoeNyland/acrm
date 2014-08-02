@@ -125,3 +125,15 @@ footer .nav > li > a:hover {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+.blue {
+    color: #168ccc;
+}
+
+.grey {
+    color: #444;
+}
+
+.white {
+    color: #fff;
+}
