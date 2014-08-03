@@ -139,7 +139,7 @@ footer .nav > li > a:hover {
 }
 
 /* Avatar */
-.img-avatar {
+.joe-avatar {
     width:                 250px;
     height:                250px;
     background-image:      url('//joenyland.me/assets/img/joe.jpg');
@@ -152,7 +152,7 @@ footer .nav > li > a:hover {
     -moz-border-radius:    125px;
 }
 
-.img-avatar-sm {
+.joe-avatar-sm {
     width:                 75px;
     height:                75px;
     border-radius:         37px;
