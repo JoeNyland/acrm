@@ -137,3 +137,25 @@ footer .nav > li > a:hover {
 .white {
     color: #fff;
 }
+
+/* Avatar */
+.img-avatar {
+    width:                 250px;
+    height:                250px;
+    background-image:      url('//joenyland.me/assets/img/joe.jpg');
+    background-size:       cover;
+    margin-right: auto;
+    margin-left: auto;
+    display:               block;
+    border-radius:         125px;
+    -webkit-border-radius: 125px;
+    -moz-border-radius:    125px;
+}
+
+.img-avatar-sm {
+    width:                 75px;
+    height:                75px;
+    border-radius:         37px;
+    -webkit-border-radius: 37px;
+    -moz-border-radius:    37px;
+}
