@@ -2,7 +2,7 @@
 
 html, body {
     height: 100%;
-    background: center no-repeat fixed url('../img/bg.jpg');
+    background: right no-repeat fixed url('../img/bg.jpg');
     background-size: cover;
     font-family:    'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
 }
@@ -52,10 +52,9 @@ a.list-group-item.active, [class*='-info'] {
 }
 
 #home {
-    /* Home */
-    /* No background, grey text */
-    color: #686868;
-    text-shadow: 0 0 10px rgba(104, 182, 255, 5);
+    color: #fff;
+    background-color: rgba(22,140,204,0.5);
+    text-shadow: 0 0 10px rgba(104, 104, 104, 5);
 }
 
 #about,
@@ -81,8 +80,7 @@ a.list-group-item.active, [class*='-info'] {
 #download,
 #contact,
 #section7 {
-    /* Transparent Blue background, White text */
-    background-color: rgba(22,140,204,0.75);
+    background-color: rgb(22,140,204);
     color: #fff;
 }
 
@@ -117,8 +115,7 @@ footer .nav > li > a:hover {
 }
 
 #home .logo {
-    color: #168ccc;
-    text-shadow: 0 0 10px rgba(104, 104, 104, 5);
+    color: #fff;
 }
 
 .row, .tb-pad {
