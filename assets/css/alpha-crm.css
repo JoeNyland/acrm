@@ -57,43 +57,56 @@ a.list-group-item.active, [class*='-info'] {
     text-shadow: 0 0 10px rgba(104, 104, 104, 5);
 }
 
+/* Grey on White */
 #about,
-#help,
-#section6 {
-    /* White background, grey text */
+#download,
+#contact {
     background-color: #fff;
     color: #444;
 }
 
 #about div > i.fa,
-#help div > i.fa,
-#section6 div >i.fa {
+#download div > i.fa,
+#contact div >i.fa {
     color: #168ccc;
 }
 
 #about a > i.fa:hover,
-#help a > i.fa:hover,
-#section6 a > i.fa:hover {
+#download a > i.fa:hover,
+#contact a > i.fa:hover {
     color: #444;
 }
 
-#download,
-#contact,
-#section7 {
+/* White on Blue */
+#features,
+#help,
+#section6 {
     background-color: rgb(22,140,204);
     color: #fff;
 }
 
-#download i.fa,
-#contact i.fa,
-#section7 i.fa {
+#features i.fa,
+#help i.fa,
+#section6 i.fa {
     color: #444;
 }
 
-#download a > i.fa:hover,
-#contact a > i.fa:hover,
-#section7 a > i.fa:hover {
+#features a > i.fa:hover,
+#help a > i.fa:hover,
+#section6 a > i.fa:hover {
     color: #fff;
+}
+
+#features a,
+#help a,
+#section6 a {
+    color: #444;
+}
+
+#features a:hover,
+#help a:hover,
+#section6 a:hover {
+    color: #ffffff;
 }
 
 footer {
