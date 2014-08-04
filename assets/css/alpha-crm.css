@@ -150,19 +150,46 @@ footer .nav > li > a:hover {
 
 /* Avatar */
 .joe-avatar {
-    width:                 250px;
-    height:                250px;
-    background-image:      url('//joenyland.me/assets/img/joe.jpg');
+    background-image:      url('//masterroot24.github.io/assets/img/joe.jpg');
     background-size:       cover;
     margin-right: auto;
     margin-left: auto;
     display:               block;
+}
+
+i.avatar-xl {
+    width:                 250px;
+    height:                250px;
     border-radius:         125px;
     -webkit-border-radius: 125px;
     -moz-border-radius:    125px;
 }
 
-.joe-avatar-sm {
+i.avatar-lg {
+    width:                 200px;
+    height:                200px;
+    border-radius:         100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius:    100px;
+}
+
+i.avatar-md {
+    width:                 150px;
+    height:                150px;
+    border-radius:         75px;
+    -webkit-border-radius: 75px;
+    -moz-border-radius:    75px;
+}
+
+i.avatar-sm {
+    width:                 100px;
+    height:                100px;
+    border-radius:         50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius:    50px;
+}
+
+i.avatar-xs {
     width:                 75px;
     height:                75px;
     border-radius:         37px;
