@@ -59,21 +59,18 @@ a.list-group-item.active, [class*='-info'] {
 
 /* Grey on White */
 #about,
-#download,
-#contact {
+#download {
     background-color: #fff;
     color: #444;
 }
 
 #about div > i.fa,
-#download div > i.fa,
-#contact div >i.fa {
+#download div > i.fa {
     color: #168ccc;
 }
 
 #about a > i.fa:hover,
-#download a > i.fa:hover,
-#contact a > i.fa:hover {
+#download a > i.fa:hover {
     color: #444;
 }
 
