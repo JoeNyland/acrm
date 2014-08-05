@@ -1,7 +1,6 @@
 $(document).ready(function () {
 
     /* Back to top button */
-    $('#back-to-top').css('display', 'none');
     var offset = 150;
     var duration = 500;
     $(window).scroll(function() {
@@ -40,4 +39,5 @@ $(document).ready(function () {
             }
         }
     });
+
 });
