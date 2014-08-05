@@ -11,6 +11,16 @@ $(document).ready(function () {
         }
     });
 
+    /* Avatar Hover Zoom */
+    $( "#about-avatar" ).hover(function(){
+        $(this).switchClass('avatar-md', 'avatar-xl');
+    },
+        function(){
+            $(this).switchClass('avatar-xl', 'avatar-md');
+        }
+    );
+
+
     /* Activate ScrollSpy Menu */
     $('body').scrollspy({
         target: '#navbar-collapsible',
