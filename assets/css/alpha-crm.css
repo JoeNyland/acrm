@@ -16,7 +16,7 @@ html, body {
     color: #fff;
 }
 
-.navbar-trans li > a:hover, .navbar-trans li > a:focus, .navbar-trans li.active {
+.navbar-trans li > a:hover, .navbar-trans li > a:focus, .navbar-trans li.active a:not(#back-to-top) {
     background-color: #38afef;
 }
 

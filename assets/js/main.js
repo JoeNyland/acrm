@@ -1,4 +1,16 @@
 $(document).ready(function () {
+    /* Back to top button */
+    $('#back-to-top').css('display', 'none');
+    var offset = 150;
+    var duration = 500;
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > offset) {
+            $('#back-to-top').fadeIn(duration);
+        } else {
+            $('#back-to-top').fadeOut(duration);
+        }
+    });
+
     /* Activate ScrollSpy Menu */
     $('body').scrollspy({
         target: '#navbar-collapsible',
@@ -16,17 +28,6 @@ $(document).ready(function () {
                 }, 1000);
                 return false;
             }
-        }
-    });
-
-    /* Back to top button */
-    var offset = 150;
-    var duration = 500;
-    $(window).scroll(function() {
-        if ($(this).scrollTop() > offset) {
-            $('#back-to-top').fadeIn(duration);
-        } else {
-            $('#back-to-top').fadeOut(duration);
         }
     });
 });
