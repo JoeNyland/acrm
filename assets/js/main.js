@@ -18,5 +18,15 @@ $(document).ready(function () {
             }
         }
     });
-});
 
+    /* Back to top button */
+    var offset = 150;
+    var duration = 500;
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > offset) {
+            $('#back-to-top').fadeIn(duration);
+        } else {
+            $('#back-to-top').fadeOut(duration);
+        }
+    });
+});
