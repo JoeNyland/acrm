@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
     /* Back to top button */
     $('#back-to-top').css('display', 'none');
     var offset = 150;
@@ -19,7 +20,6 @@ $(document).ready(function () {
             $(this).switchClass('avatar-xl', 'avatar-md');
         }
     );
-
 
     /* Activate ScrollSpy Menu */
     $('body').scrollspy({
