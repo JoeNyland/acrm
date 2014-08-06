@@ -1,13 +1,17 @@
 $(document).ready(function () {
 
     /* Back to top button */
+    $('#back-to-top').css('display', 'none'); // Hide the Back to Top button, if JS enabled. Re-enabled below on scroll.
+    $('#demo').css('display', 'none'); // Hide the Demo button, if JS enabled. Re-enabled below on scroll.
     var offset = 150;
     var duration = 500;
     $(window).scroll(function() {
         if ($(this).scrollTop() > offset) {
             $('#back-to-top').fadeIn(duration);
+            $('#demo').fadeIn(duration);
         } else {
             $('#back-to-top').fadeOut(duration);
+            // Don't fadeOut() the Demo button, leave stuck to the navbar.
         }
     });
 
