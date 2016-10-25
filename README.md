@@ -1,5 +1,7 @@
 # acrm
 
+[![Build Status](https://travis-ci.org/MasterRoot24/acrm.svg?branch=master)](https://travis-ci.org/MasterRoot24/acrm)
+
 αCRM: A Customer Relationship Management system.
 
 ## WARNING
