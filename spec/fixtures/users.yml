@@ -1,0 +1,4 @@
+user1:
+  name: <%= Faker::Name.name %>
+  email: <%= Faker::Internet.email %>
+  company: company1
