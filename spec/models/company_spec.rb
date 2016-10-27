@@ -38,6 +38,11 @@ RSpec.describe Company, type: :model do
       expect(@company).not_to be_valid
     end
 
+    it 'should require an address' do
+      @company.address = nil
+      expect(@company).not_to be_valid
+    end
+
   end
 
 end

@@ -1,3 +1,10 @@
 company1:
   name: <%= Faker::Company.name %>
   website: <%= Faker::Internet.url %>
+  address: <%= <<-"EOA".chomp
+    #{Faker::Address.street_address},
+    #{Faker::Address.city},
+    #{Faker::Address.state}
+    #{Faker::Address.postcode}
+    EOA
+    %>
