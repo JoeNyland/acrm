@@ -1,0 +1,12 @@
+client1:
+  name: <%= Faker::Name.name %>
+  email: <%= Faker::Internet.email %>
+  company: company1
+  address: <%= <<-"EOA".chomp
+               #{Faker::Address.street_address},
+               #{Faker::Address.city},
+               #{Faker::Address.state}
+               #{Faker::Address.postcode}
+               EOA
+               %>
+
