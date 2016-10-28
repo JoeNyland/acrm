@@ -1,0 +1,4 @@
+estimate1:
+  client: client1
+  body: <%= Faker::Lorem.paragraphs %>
+
