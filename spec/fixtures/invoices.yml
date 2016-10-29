@@ -1,4 +1,5 @@
-invoice1:
-  client: client1
+<% 5.times do |n| %>
+invoice<%= n %>:
+  client: client<%= rand(0..4) %>
   body: <%= Faker::Lorem.paragraphs %>
-
+<% end %>

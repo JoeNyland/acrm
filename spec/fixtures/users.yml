@@ -1,4 +1,6 @@
-user1:
+<% 5.times do |n| %>
+user<%= n %>:
   name: <%= Faker::Name.name %>
   email: <%= Faker::Internet.email %>
-  company: company1
+  company: company<%= rand(0..4) %>
+<% end %>
