@@ -1,5 +1,5 @@
 <% 5.times do |n| %>
 estimate<%= n %>:
   client: client<%= rand(0..4) %>
-  body: <%= Faker::Lorem.paragraphs %>
+  body: <%= Faker::Lorem.paragraphs.join %>
 <% end %>
