@@ -31,6 +31,13 @@ RSpec.describe SessionsHelper, type: :helper do
       expect(logged_in?).to be_truthy
     end
 
+    it 'log_out should log a user out' do
+      log_in @user
+      expect(logged_in?).to be_truthy
+      log_out
+      expect(logged_in?).to be_falsey
+    end
+
   end
 
 end
