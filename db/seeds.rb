@@ -5,3 +5,20 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+company = Company.create(
+    name: Faker::Company.name,
+    website: Faker::Internet.url,
+    address: <<-"EOA".chomp
+      #{Faker::Address.street_address},
+      #{Faker::Address.city},
+      #{Faker::Address.state}
+      #{Faker::Address.postcode}
+EOA
+)
+User.create(
+    name: Faker::Name.name,
+    email: 'user@example.com',
+    password: 'password',
+    company: company
+)
