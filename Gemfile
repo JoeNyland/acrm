@@ -52,4 +52,5 @@ group :development, :test do
   gem 'rails-controller-testing'
   gem 'faker'
   gem 'travis'
+  gem 'capybara'
 end
