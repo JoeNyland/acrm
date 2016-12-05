@@ -1,7 +1,6 @@
 GIT
-  remote: git://github.com/MasterRoot24/rails.git
-  revision: 64ed8f7290af2f2401aed9f1ff296f9cf8670d64
-  branch: sqlite_execute_batch
+  remote: git://github.com/rails/rails.git
+  revision: 575212a1ba2e4d170985531402c6e3d27af5a0ea
   specs:
     actioncable (5.1.0.alpha)
       actionpack (= 5.1.0.alpha)
@@ -129,7 +128,7 @@ GEM
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
     mini_portile2 (2.1.0)
-    minitest (5.10.0)
+    minitest (5.10.1)
     multi_json (1.12.1)
     multipart-post (2.0.0)
     net-http-persistent (2.9.4)
