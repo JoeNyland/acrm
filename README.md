@@ -8,7 +8,7 @@ This project is very much work in progress, so please expect things to not work 
 mission critical!
 
 ## Setup
-* Clone the repo: `git clone https://github.com/MasterRoot24/acrm`
+* Clone the repo: `git clone https://github.com/JoeNyland/acrm`
 * `cd` into the repo: `cd acrm`
 * Install the dependencies: `bundle install --without production`
 * Run the app! `rails server`
